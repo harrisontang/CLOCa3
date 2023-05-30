@@ -1,0 +1,10 @@
+need cacert.pem
+need to configure php.ini with cacert.pem location
+
+facebook:
+register app with facebook
+while devving:
+    - in development
+when launch:
+    - not in development
+    - nominate url (route 53?)
